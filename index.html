@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <title>Sudoku Solver</title>
+    <head>
+        <link rel="stylesheet" href="sudoku.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading center-content">
+            Sudoku Solver
+        </div>
+        <div class="center-content">
+            <div class="sudoku">
+                <div>
+                    <div class="cell r0c0"></div>
+                    <div class="cell r0c1"></div>
+                    <div class="cell r0c2"></div>
+                    <div class="cell r0c3"></div>
+                    <div class="cell r0c4"></div>
+                    <div class="cell r0c5"></div>
+                    <div class="cell r0c6"></div>
+                    <div class="cell r0c7"></div>
+                    <div class="cell r0c8"></div>
+                </div>
+                <div>
+                    <div class="cell r1c0"></div>
+                    <div class="cell r1c1"></div>
+                    <div class="cell r1c2"></div>
+                    <div class="cell r1c3"></div>
+                    <div class="cell r1c4"></div>
+                    <div class="cell r1c5"></div>
+                    <div class="cell r1c6"></div>
+                    <div class="cell r1c7"></div>
+                    <div class="cell r1c8"></div>
+                </div>
+                <div>
+                    <div class="cell r2c0"></div>
+                    <div class="cell r2c1"></div>
+                    <div class="cell r2c2"></div>
+                    <div class="cell r2c3"></div>
+                    <div class="cell r2c4"></div>
+                    <div class="cell r2c5"></div>
+                    <div class="cell r2c6"></div>
+                    <div class="cell r2c7"></div>
+                    <div class="cell r2c8"></div>
+                </div>
+                <div>
+                    <div class="cell r3c0"></div>
+                    <div class="cell r3c1"></div>
+                    <div class="cell r3c2"></div>
+                    <div class="cell r3c3"></div>
+                    <div class="cell r3c4"></div>
+                    <div class="cell r3c5"></div>
+                    <div class="cell r3c6"></div>
+                    <div class="cell r3c7"></div>
+                    <div class="cell r3c8"></div>
+                </div>
+                <div>
+                    <div class="cell r4c0"></div>
+                    <div class="cell r4c1"></div>
+                    <div class="cell r4c2"></div>
+                    <div class="cell r4c3"></div>
+                    <div class="cell r4c4"></div>
+                    <div class="cell r4c5"></div>
+                    <div class="cell r4c6"></div>
+                    <div class="cell r4c7"></div>
+                    <div class="cell r4c8"></div>
+                </div>
+                <div>
+                    <div class="cell r5c0"></div>
+                    <div class="cell r5c1"></div>
+                    <div class="cell r5c2"></div>
+                    <div class="cell r5c3"></div>
+                    <div class="cell r5c4"></div>
+                    <div class="cell r5c5"></div>
+                    <div class="cell r5c6"></div>
+                    <div class="cell r5c7"></div>
+                    <div class="cell r5c8"></div>
+                </div>
+                <div>
+                    <div class="cell r6c0"></div>
+                    <div class="cell r6c1"></div>
+                    <div class="cell r6c2"></div>
+                    <div class="cell r6c3"></div>
+                    <div class="cell r6c4"></div>
+                    <div class="cell r6c5"></div>
+                    <div class="cell r6c6"></div>
+                    <div class="cell r6c7"></div>
+                    <div class="cell r6c8"></div>
+                </div>
+                <div>
+                    <div class="cell r7c0"></div>
+                    <div class="cell r7c1"></div>
+                    <div class="cell r7c2"></div>
+                    <div class="cell r7c3"></div>
+                    <div class="cell r7c4"></div>
+                    <div class="cell r7c5"></div>
+                    <div class="cell r7c6"></div>
+                    <div class="cell r7c7"></div>
+                    <div class="cell r7c8"></div>
+                </div>
+                <div>
+                    <div class="cell r8c0"></div>
+                    <div class="cell r8c1"></div>
+                    <div class="cell r8c2"></div>
+                    <div class="cell r8c3"></div>
+                    <div class="cell r8c4"></div>
+                    <div class="cell r8c5"></div>
+                    <div class="cell r8c6"></div>
+                    <div class="cell r8c7"></div>
+                    <div class="cell r8c8"></div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="solve-button" type="button" onclick="solveSudoku()">Solve Sudoku!</button>
+                <button class="solve-button" type="button" onclick="loadBoard()">Reset Board!</button>
+            </div>
+        </div>
+        <script src="sudoku.js"></script>
+    </body>
+</html>
