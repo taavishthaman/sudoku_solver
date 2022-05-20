@@ -1,6 +1,6 @@
 # sudoku_solver
 Sudoku Solver in HTML, CSS and Javascript
 
-![alt text](https://github.com/TaavishThaman/sudoku_solver/blob/main/unsolved.png?raw=true)
+<img src="https://github.com/TaavishThaman/sudoku_solver/blob/main/unsolved.png?raw=true" alt="drawing" width="200"/>
 
-![alt text](https://github.com/TaavishThaman/sudoku_solver/blob/main/solved.png?raw=true)
+<img src="https://github.com/TaavishThaman/sudoku_solver/blob/main/solved.png?raw=true" alt="drawing" width="200"/>
